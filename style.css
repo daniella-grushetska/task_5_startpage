@@ -1,0 +1,128 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(65, 46, 101, 0.979),
+      rgba(1, 7, 59, 0.762)
+    ),
+    url(img/put-your-image-here.png);
+
+  font-family: "Hammersmith One", "Playfair Display", "Roboto", sans-serif;
+}
+
+.main-header {
+  background-color: rgba(49, 29, 94, 0.8);
+  padding: 18px 6px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 140px;
+}
+
+.company-logo {
+  width: 150px;
+  height: 60px;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-link {
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 14px;
+  transition: color 0.8s ease;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #00e0d0;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  color: #ffffff;
+  margin-top: 180px;
+}
+
+.hero-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-title {
+  font-size: 34px;
+  font-weight: 850;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0px;
+}
+
+.hero-line {
+  width: 10%;
+  height: 1px;
+  background-color: #00e0d0;
+  margin: 10px auto;
+  border: none;
+}
+
+.hero-paragraph {
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.hero-button {
+  font-family: "Hammersmith One";
+  color: #00e0d0;
+  border: 2px solid #00e0d0;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.hero-button:hover {
+  color: white;
+  background-color: #00e0d0;
+}
+
+.hero-pages {
+  margin-top: 170px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.page {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+}
+
+.page.active {
+  background-color: #00e0d0;
+  border: 1px solid #00e0d0;
+}
